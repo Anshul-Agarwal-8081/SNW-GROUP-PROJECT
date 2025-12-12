@@ -3,6 +3,7 @@ let img3 = document.querySelector("#image3");
 let img4 = document.querySelector("#image4");
 let btn = document.querySelector("#nextbtn3");
 btn.disabled = true;
+
 function check(){
     if (text.value.trim() == ""){
         changeimgerror();
